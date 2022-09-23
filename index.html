@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento HTML</title>
+
+
+    <!--logo abaixo estamos fazendo alguns ajustes usando a teg border 4px solid que seria a borda com o 
+    pixel 4 e com o estilo solid. na sequência estamos usando o 
+text-align: center faz a centralização do texto e por fim o 
+border-collapse: collapse fez uma borda solida ao invés de fazer uma borda separada
+ margin:auto; faz com que centralize a tabela -->
+    <style>
+        
+        table,td,thead {
+            margin: auto;
+            border: 4px solid ; 
+           text-align: center;
+           border-collapse: collapse;
+        }
+    </style>
+</head><!--cabeçalho da página -->
+<body><!--corpo da página aonde ficara o conteúdo-->
+    <p>
+    <a href="https://www.unoesc.edu.br">
+         <img  src ="imgs/logo_unoesc.jpg" alt="imagem da unoesc"
+    </a>
+    <br>
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"  
+   width="10%" alt="Imagem do google">
+   <br>                                         <!--o width fara com que eu possa diminuir a imagem ou apliar com porcentagem-->
+   <img src="https://avatars.githubusercontent.com/u/109104085?v=4" width="10%" alt = "FOTO DO GITHUB">
+    </p>
+    <!--aqui vamos enserir uma tabela usando a teg <table>-->
+    <!--uma tabela pode ter também cabeçalho,roda pé e o meio dela -->
+    <!--<table border="2px"> usando o border podemos criar uma borda sendo o "2px" indicando o tamnho do pixels-->
+      <table style="border:1px solid" 
+        <caption>Relatório de Funcionários </caption> <!--o caption pode ser um subtitulo da nossa tabela-->
+        
+
+           <thead> <!--aqui seria a cabeça da tabela-->
+            <tr><!-- a teg tr indica uma linha dentro da tabela-->
+            <td> nome</td><!--e o td faz com que dentro de cada linha vamos definir os dados dentro dela--> 
+            <td> Endereço</td>
+            <td> Data de Nascimento</td>
+            <td> Salário</td>
+        </tr>
+           </thead>
+            <tbody><!--aqui seria o corpo da tabela-->
+                <tr>
+                    <td> Marcelo</td>
+                    <td> Rua dos programadores</td>
+                    <td> 13/09/1968</td>
+                    <td> R$7360,00</td>
+                </tr> 
+            </tbody>
+            <tfoot><!--aqui seria o rodape -->
+                <tr>
+                    <td>2022</td>
+                </tr>
+            </tfoot>
+        
+    </table>
+    <P>
+        listas com marcadores
+        <ul><!--usando o ul fará listas com marcações -->
+        
+<li>Item 1</li> <!--o li nada mais é que os intens dentro dessa lista -->
+<ul>
+<li>VERSÃO 1.7</li> <!--se eu quiser posso por dentro da lista outras listas marcadores -->
+<li>VERSÃO 1.8</li><!-- como pode notar dentro do item 1 foram colocados outras listas-->
+<li>VERSÃO 1.9</li>
+</ul>
+
+<li>Item 2</li>
+<ul>
+    <li>VERSÃO 2.0</li>
+    <li>VERSÃO 2.1</li>
+    <li>VERSÃO 2.2</li>
+</ul>
+<br>
+<li>Item 3</li>
+<br>
+<ul>
+<li>VERSÃO 3.1</li>
+<li>VERSÃO 3.2</li>
+<li>VERSÃO 3.3</li>
+</ul>
+<br>
+        </ul>
+        listas com núemros 
+        <ol> <!--o ol faz listas enúmeradas -->
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+    </P>
+    <a href="marcelo:perfil3.0@hotmail.com">perfil3.0@hotmail.com
+<!--aqui é possível por seu email ou contato sendo o real dentro de " " e
+o que vai aparecer para o úsuario vai estar entre > < 
+    mesma coisa no número de telefone-->
+    </a>
+    <br>
+
+    <a href="tel:49999146427">
+        (49) 999146427
+
+    </a> <p>
+
+    </p>
+</body>
+</html>
